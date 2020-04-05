@@ -53,4 +53,20 @@ psql
 
 ![Img_alt](https://github.com/Edo1993/otus_32/blob/master/img/322.png)
 
+На сервере backup проверяем работу barman.
 
+```
+sudo su
+barman check master
+barman replication-status master
+```
+
+![Img_alt](https://github.com/Edo1993/otus_32/blob/master/img/323.png)
+
+```
+barman switch-wal --archive master
+barman backup master
+barman list-backup master
+```
+
+![Img_alt](https://github.com/Edo1993/otus_32/blob/master/img/324.png)
