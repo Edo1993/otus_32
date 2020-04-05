@@ -7,6 +7,16 @@
 ___________________________________________________________________________________________________________________
 # Домашняя работа
 
+Статьи, которые помогли
+1) [Работа с PostgreSQL: настройка и масштабирование - есть хорошая часть про барман](http://www.zaweel.ru/2016/07/postgresql_22.html#barman)
+
+2) [Настройка потоковой репликации PostgreSQL](https://www.dmosk.ru/miniinstruktions.php?mini=postgresql-replication)
+
+3) [ Как создавать резервные копии, восстанавливать и переносить базы данных PostgreSQL с помощью Barman в CentOS 7](https://www.codeflow.site/ru/article/how-to-back-up-restore-and-migrate-postgresql-databases-with-barman-on-centos-7)
+
+4) [Настройка MASTER-SLAVE репликации в PostgreSQL](http://snakeproject.ru/rubric/article.php?art=freebsd_postgresql_master_slave_replication_19.06.18)
+
+
 Команда ```vagrant up``` поднимает 3 сервера - master, slave и backup,  также запускает ansible-playbook.
 Для проверки - выполнить последовательно команды.
 
