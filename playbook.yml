@@ -1,0 +1,17 @@
+- name: Config master
+  hosts: master
+  become: yes
+  roles:
+    - pg-master
+
+- name: Config slave
+  hosts: slave
+  become: yes
+  roles:
+    - pg-slave
+
+- name: Config barman
+  hosts: backup
+  become: yes
+  roles:
+    - barman
